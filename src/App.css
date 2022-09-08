@@ -22,9 +22,7 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
-}
+
 
 @keyframes App-logo-float {
   0% {
@@ -36,4 +34,24 @@
   100% {
     transform: translateY(0px);
   }
+}
+.site-footer {
+  background-image: linear-gradient(#4ec554, white);
+  padding: 20px 0;
+  margin-top: 2rem;
+}
+.navbar-brand {
+  max-width: 4rem;
+  margin-right: 2rem;
+}
+
+.navbar-brand img {
+  height: 20vmin;
+  pointer-events: none;
+}
+.navbar-dark {
+  background-color: #1cad37;
+  background-image: #30c535;
+  margin-bottom: 2rem;
+  min-height: 8rem;
 }
