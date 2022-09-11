@@ -9,6 +9,7 @@ import {
 import { NavLink } from "react-router-dom";
 import banklogo from "../app/assets/banklogo.jpg";
 import { useState } from "react";
+import UserLoginForm from "../features/user/UserLoginForm";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -53,6 +54,7 @@ const Header = () => {
             </NavLink>
           </NavItem>
         </Nav>
+        <UserLoginForm />
       </Collapse>
     </Navbar>
   )
