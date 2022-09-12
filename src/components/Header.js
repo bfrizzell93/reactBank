@@ -29,17 +29,12 @@ const Header = () => {
           </NavItem>
 
           <NavItem>
-            <NavLink className='nav-link' to="/loans">
-              <i className='fa fa-handshake-o fa-lg' aria-hidden="true" /> Loans
+            <NavLink className='nav-link' to="/productsservices">
+              <i className='fa fa-handshake-o fa-lg' aria-hidden="true" /> Products & Services
 
             </NavLink>
           </NavItem>
 
-          <NavItem>
-            <NavLink className='nav-link' to='/creditcards'>
-              <i className="fa fa-credit-card fa-lg" /> Credit Cards
-            </NavLink>
-          </NavItem>
 
           <NavItem>
             <NavLink className='nav-link' to='/about'>
@@ -54,7 +49,7 @@ const Header = () => {
             </NavLink>
           </NavItem>
         </Nav>
-        <UserLoginForm />
+        <UserLoginForm className='loginIcon'/>
       </Collapse>
     </Navbar>
   )

@@ -39,9 +39,7 @@ h3,
   font-size: 1.25rem;
 }
 
-h2 {
-  color: #3046c5;
-}
+
 
 .card-img-overlay .card-title {
   color: white;
@@ -102,4 +100,8 @@ h2 {
 
 .card-img{
   height: 25rem;
+}
+
+.loginIcon {
+  align-content: center;
 }
