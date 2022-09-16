@@ -1,16 +1,7 @@
-import {
-  Button,
-  Col,
-  Container,
-  Row,
-  Card,
-  CardBody,
-  CardHeader,
-  CardTitle,
-} from "reactstrap";
+import { Button, Col, Container, Row, CardBody, CardTitle } from "reactstrap";
 import SubHeader from "../components/SubHeader";
 import aboutUsFamily from "../app/assets/aboutUsFamily.jpg";
-import aboutUsFamily1 from "../app/assets/aboutUsFamily1.jpg";
+
 const AboutPage = () => {
   return (
     <div>
