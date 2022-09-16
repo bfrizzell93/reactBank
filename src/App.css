@@ -4,11 +4,7 @@
 
 .App-logo {
   height: 40vmin;
- 
 }
-
-
-
 
 .App-header {
   min-height: 100vh;
@@ -19,19 +15,15 @@
   font-size: calc(10px + 2vmin);
 }
 
-
-
-
-
 body {
-  font-family: 'Times', 'Times New Roman', Times, serif;
+  font-family: "Times", "Times New Roman", Times, serif;
 }
 
 h1,
 h2,
 h3,
 .card-body > .card-title {
-  font-family: 'Times', cursive;
+  font-family: "Times", cursive;
 }
 
 .card-title {
@@ -39,13 +31,10 @@ h3,
   font-size: 1.25rem;
 }
 
-
-
 .card-img-overlay .card-title {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 
 .row-content {
   padding: 50px 0;
@@ -66,7 +55,7 @@ h3,
 
 .navbar-brand img {
   width: 8rem;
-  
+
   margin-right: 2rem;
   max-width: 8rem;
 }
@@ -98,10 +87,21 @@ h3,
   transition: 300ms ease-in;
 }
 
-.card-img{
+.card-img {
   height: 25rem;
 }
 
 .loginIcon {
   align-content: center;
+}
+
+.aboutusimg {
+  height: 60vh;
+  width: 60%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.aboutUsStats {
+  font-size: 5rem;
 }
