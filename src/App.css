@@ -4,8 +4,17 @@
 
 .App-logo {
   height: 40vmin;
+<<<<<<< HEAD
 }
 
+=======
+ 
+}
+
+
+
+
+>>>>>>> c4f8580a14bb4134fcfa7bb55e52104eb0f0d0b8
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -15,15 +24,28 @@
   font-size: calc(10px + 2vmin);
 }
 
+<<<<<<< HEAD
 body {
   font-family: "Times", "Times New Roman", Times, serif;
+=======
+
+
+
+
+body {
+  font-family: 'Times', 'Times New Roman', Times, serif;
+>>>>>>> c4f8580a14bb4134fcfa7bb55e52104eb0f0d0b8
 }
 
 h1,
 h2,
 h3,
 .card-body > .card-title {
+<<<<<<< HEAD
   font-family: "Times", cursive;
+=======
+  font-family: 'Times', cursive;
+>>>>>>> c4f8580a14bb4134fcfa7bb55e52104eb0f0d0b8
 }
 
 .card-title {
@@ -31,11 +53,20 @@ h3,
   font-size: 1.25rem;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> c4f8580a14bb4134fcfa7bb55e52104eb0f0d0b8
 .card-img-overlay .card-title {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c4f8580a14bb4134fcfa7bb55e52104eb0f0d0b8
 .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
@@ -55,7 +86,11 @@ h3,
 
 .navbar-brand img {
   width: 8rem;
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> c4f8580a14bb4134fcfa7bb55e52104eb0f0d0b8
   margin-right: 2rem;
   max-width: 8rem;
 }
@@ -87,12 +122,17 @@ h3,
   transition: 300ms ease-in;
 }
 
+<<<<<<< HEAD
 .card-img {
+=======
+.card-img{
+>>>>>>> c4f8580a14bb4134fcfa7bb55e52104eb0f0d0b8
   height: 25rem;
 }
 
 .loginIcon {
   align-content: center;
+<<<<<<< HEAD
 }
 
 .aboutusimg {
@@ -105,3 +145,6 @@ h3,
 .aboutUsStats {
   font-size: 5rem;
 }
+=======
+}
+>>>>>>> c4f8580a14bb4134fcfa7bb55e52104eb0f0d0b8

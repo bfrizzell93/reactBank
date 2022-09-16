@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Button, Col, Container, Row, CardBody, CardTitle } from "reactstrap";
 import SubHeader from "../components/SubHeader";
 import aboutUsFamily from "../app/assets/aboutUsFamily.jpg";
@@ -54,3 +55,16 @@ const AboutPage = () => {
 export default AboutPage;
 
 //POST RELEVANT ABOUT INFO HERE//
+=======
+
+
+const AboutPage = () => {
+  return (
+    <div>AboutPage</div>
+  )
+}
+
+export default AboutPage
+
+//POST RELEVANT ABOUT INFO HERE//
+>>>>>>> c4f8580a14bb4134fcfa7bb55e52104eb0f0d0b8
