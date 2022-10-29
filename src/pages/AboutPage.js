@@ -18,27 +18,28 @@ const AboutPage = () => {
               educate, but to also encourage. We exist to usher their dreams
               into the land of reality.
             </h3>
+            
           </div>
         </Col>
         <Col md="7">
-          <img className="aboutusimg" src={aboutUsFamily} />
+          <img className="aboutusimg" src={aboutUsFamily}  alt="A mother holding her child"/>
         </Col>
       </Row>
-      <Container className="mt-5">
+      <Container className="mt-3">
         <h1>WE HELP OUR MEMBERS DO BETTER</h1>
       </Container>
       <Container>
-        <Row>
-          <Col md="4">
+        <Row xs="1">
+          <Col >
             <h1 className="aboutUsStats">$50M</h1>
             <h1>Cash Back</h1>
           </Col>
-          <Col md="4">
-            <h1 className="aboutUsStats">Over 5,000</h1>
+          <Col >
+            <h1 className="aboutUsStats">Over 50,000</h1>
             <h1>Homes Financed</h1>
           </Col>
-          <Col md="4">
-            <h1 className="aboutUsStats">21,234</h1>
+          <Col >
+            <h1 className="aboutUsStats">51,234</h1>
             <h1>New Members This Year</h1>
           </Col>
         </Row>

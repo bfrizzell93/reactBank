@@ -10,6 +10,7 @@ import { NavLink } from "react-router-dom";
 import banklogo from "../app/assets/banklogo.jpg";
 import { useState } from "react";
 import UserLoginForm from "../features/user/UserLoginForm";
+import { setCurrentUser } from "../features/user/userSlice";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -44,10 +45,15 @@ const Header = () => {
           </NavItem>
 
           <NavItem>
-            <NavLink className='nav-link' to='contact'>
+            <NavLink className='nav-link' to='/contact'>
               <i className='fa fa-commenting-o fa-lg' /> Contact us
             </NavLink>
           </NavItem>
+          {setCurrentUser &&  <NavItem>
+            <NavLink className='nav-link' to='/personalAccount'>
+              <i className='fa fa-university fa-lg' /> Personal Account
+            </NavLink>
+          </NavItem>}
         </Nav>
         <UserLoginForm className='loginIcon'/>
       </Collapse>
